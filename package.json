@@ -2,10 +2,9 @@
   "name": "blog",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next -p 3003",
-    "build": "yarn rss && next build",
-    "rss": "node lib/rss",
-    "new": "node lib/db"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "classnames": "^2.2.6",
