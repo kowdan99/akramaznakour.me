@@ -55,11 +55,11 @@
 }
 
 .hint {
-  width: 100%;
-  color: var(--gray);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: inline-flex;
+  padding: 10px;
+  margin: -10px;
+  margin-right: var(--gap-half);
+  border-radius: var(--radius);
 }
 
 .hint kbd {
