@@ -4,7 +4,7 @@ import { GitHub, Linkedin, Mail, Twitter, File } from "@components/icons";
 
 const About = () => {
   return (
-    <Page description="Hi, I'm Akram. Frontend developer and designer, mechanical keyboard enthusiast, practicing minimalist, and trance lover in search of flow.">
+    <Page description="I’m from Essaouira and a graduate of ESTE. Currently in my final year studding computer science engineering at ENSAJ I’m passionate about dev particularly web and mobile. These days I’m trying to learn about data driven art mainly because it sounds cool. Here you can find my resume in english and in french.">
       <article>
         <h1>Akram Aznakour</h1>
         <p>
