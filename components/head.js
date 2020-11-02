@@ -40,6 +40,9 @@ const Head = ({
       <meta name="theme-color" content="#000000" />
       <link rel="icon"  href="./logo.svg" color="#000000" />
 
+      {/* TheseMetrics */}
+      <script async src="https://unpkg.com/thesemetrics@latest"></script>
+    
       {children}
     </NextHead>
   );
