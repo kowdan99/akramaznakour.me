@@ -4,7 +4,7 @@ import { GitHub, Linkedin, Mail, Twitter, File } from "@components/icons";
 
 const About = () => {
   return (
-    <Page description="I’m from Essaouira and a graduate of ESTE. Currently in my final year studding computer science engineering at ENSAJ I’m passionate about dev particularly web and mobile. These days I’m trying to learn about data driven art mainly because it sounds cool. Here you can find my resume in english and in french.">
+    <Page description="I’m from Essaouira and a graduate of ESTE. Currently, in my final year studying computer science engineering at ENSAJ. I’m passionate about dev particularly web and mobile. These days I’m trying to learn about data-driven art mainly because it sounds cool. Here you can find my resume in english and in french.">
       <article>
         <h1>Akram Aznakour</h1>
         <p>
@@ -27,19 +27,19 @@ const About = () => {
         </p>
         <p>
           {" "}
-          Currently in my final year studding computer science engineering at{" "}
+          Currently, in my final year studying computer science engineering at{" "}
           <Link
             underline
             href="https://www.google.com/search?q=ENSA+El+Jadida"
             external
           >
             ENSAJ
-          </Link>
+          </Link>.
         </p>
         <p>I’m passionate about dev particularly web and mobile </p>
         <p>
-          These days I’m trying to learn about data driven art mainly because it
-          sounds cool
+          These days I’m trying to learn about data-driven art mainly because it
+          sounds cool.
         </p>
         <p>
           Here is my resume in{" "}
@@ -57,7 +57,7 @@ const About = () => {
             external
           >
             french
-          </Link>
+          </Link>.
         </p>
       </article>
     </Page>
