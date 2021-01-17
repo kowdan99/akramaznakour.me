@@ -2,14 +2,7 @@ import { memo } from "react";
 import Link from "next/link";
 
 import styles from "./header.module.css";
-import {
-  Home,
-  GitHub,
-  Logo as LogoIcon,
-  Twitter,
-  Linkedin,
-  Mail,
-} from "@components/icons";
+import { Home, GitHub, Linkedin, Mail } from "@components/icons";
 
 const Header = ({ title, content }) => {
   return (
@@ -20,24 +13,19 @@ const Header = ({ title, content }) => {
             <Home />
           </a>
         </Link>
-        <Link href="https://github.com/akramaznakour">
+        <Link href="https://github.com/kowdan99">
           <a target="_blank" className={styles.logo}>
             <GitHub />
           </a>
         </Link>
         <p className={styles.hint}>I'm active here : </p>
-        <Link href="https://twitter.com/akramaznakour">
-          <a target="_blank" className={styles.logo}>
-            <Twitter />
-          </a>
-        </Link>
-        <Link href="http://linkedin.com/in/akramaznakour">
+        <Link href="https://www.linkedin.com/in/youssof-kowdan/">
           <a target="_blank" className={styles.logo}>
             <Linkedin />
           </a>
         </Link>
 
-        <Link href="mailto:akram.aznakour@gmail.com">
+        <Link href="mailto:kowday@uw.edu">
           <a target="_blank" className={styles.logo}>
             <Mail />
           </a>
